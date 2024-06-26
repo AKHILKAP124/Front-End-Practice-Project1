@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu h3 {
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 7px;
+    cursor: pointer;
+    
+}
+.menu i {
+    border: 1.5px solid black;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 6px;
+    cursor: pointer;
+      
+}
+
+.logo h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: none;
+    background-color: orangered;
+    color: #fff;
+}
+
+#main h1 {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 130px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+#main img{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+.img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+.img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+.img4 {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+#main>h5 {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+.down {
+    position: absolute;
+    bottom : 0%;
+    left: 45%;
+}
+
+.down i {
+    font-size: 100px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.social {
+    position: absolute;
+    top: 85%;
+    right: 5%;
+}
+
+.social .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+
+}
+.social .logo i {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.social .text {
+    margin-top: 5px;
+}
+.social .text h5 {
+    text-transform: capitalize;
+
+}
